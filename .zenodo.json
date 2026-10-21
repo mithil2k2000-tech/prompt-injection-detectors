@@ -1,0 +1,21 @@
+{
+  "title": "Cheap Prompt-Injection Detectors Do Not Travel: A Cross-Dataset and Evasion Study of Open-Source Heuristics and N-gram Classifiers",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Preprint, code and results for: Cheap Prompt-Injection Detectors Do Not Travel: A Cross-Dataset and Evasion Study of Open-Source Heuristics and N-gram Classifiers. Not peer reviewed. The PDF is prompt-injection-detectors.pdf in this repository.",
+  "creators": [
+    {
+      "name": "Nagabathula, Mithil",
+      "affiliation": "University of East London"
+    }
+  ],
+  "keywords": [
+    "prompt injection",
+    "LLM security",
+    "detection",
+    "evasion"
+  ],
+  "license": "MIT",
+  "language": "eng",
+  "access_right": "open"
+}

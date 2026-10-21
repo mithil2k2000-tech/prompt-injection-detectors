@@ -1,0 +1,494 @@
+{
+ "in_dataset": {
+  "rebuff|bipia": {
+   "auc": 0.58,
+   "tpr": 0.0,
+   "fpr": 0.0
+  },
+  "vigil|bipia": {
+   "auc": 0.5,
+   "tpr": 0.0,
+   "fpr": 0.0
+  },
+  "rebuff|jailbreakhub": {
+   "auc": 0.666,
+   "tpr": 0.132,
+   "fpr": 0.028
+  },
+  "vigil|jailbreakhub": {
+   "auc": 0.504,
+   "tpr": 0.012,
+   "fpr": 0.005
+  },
+  "rebuff|opi": {
+   "auc": 0.795,
+   "tpr": 0.004,
+   "fpr": 0.0
+  },
+  "vigil|opi": {
+   "auc": 0.697,
+   "tpr": 0.393,
+   "fpr": 0.0
+  },
+  "rebuff|tensortrust": {
+   "auc": 0.785,
+   "tpr": 0.016,
+   "fpr": 0.0
+  },
+  "vigil|tensortrust": {
+   "auc": 0.509,
+   "tpr": 0.017,
+   "fpr": 0.0
+  },
+  "lr_word|bipia": {
+   "auc": 0.893,
+   "tpr": 0.818,
+   "fpr": 0.198
+  },
+  "lr_word|jailbreakhub": {
+   "auc": 0.942,
+   "tpr": 0.85,
+   "fpr": 0.104
+  },
+  "lr_word|opi": {
+   "auc": 0.885,
+   "tpr": 0.764,
+   "fpr": 0.177
+  },
+  "lr_word|tensortrust": {
+   "auc": 0.999,
+   "tpr": 0.961,
+   "fpr": 0.003
+  },
+  "lr_char|bipia": {
+   "auc": 0.846,
+   "tpr": 0.77,
+   "fpr": 0.255
+  },
+  "lr_char|jailbreakhub": {
+   "auc": 0.944,
+   "tpr": 0.869,
+   "fpr": 0.098
+  },
+  "lr_char|opi": {
+   "auc": 0.961,
+   "tpr": 0.849,
+   "fpr": 0.076
+  },
+  "lr_char|tensortrust": {
+   "auc": 0.998,
+   "tpr": 0.967,
+   "fpr": 0.0
+  }
+ },
+ "cross_auc": {
+  "lr_word": {
+   "median": 0.639,
+   "min": 0.446,
+   "max": 0.901
+  },
+  "lr_char": {
+   "median": 0.658,
+   "min": 0.48,
+   "max": 0.873
+  }
+ },
+ "cross_fpr_median": {
+  "lr_word": 0.144,
+  "lr_char": 0.109
+ },
+ "cross_tpr_median": {
+  "lr_word": 0.553,
+  "lr_char": 0.586
+ },
+ "loo": {
+  "lr_word|bipia": {
+   "auc": 0.609,
+   "tpr": 0.068,
+   "fpr": 0.032
+  },
+  "lr_word|jailbreakhub": {
+   "auc": 0.709,
+   "tpr": 0.945,
+   "fpr": 0.813
+  },
+  "lr_word|opi": {
+   "auc": 0.541,
+   "tpr": 0.015,
+   "fpr": 0.0
+  },
+  "lr_word|tensortrust": {
+   "auc": 0.82,
+   "tpr": 0.689,
+   "fpr": 0.155
+  },
+  "lr_char|bipia": {
+   "auc": 0.606,
+   "tpr": 0.068,
+   "fpr": 0.039
+  },
+  "lr_char|jailbreakhub": {
+   "auc": 0.693,
+   "tpr": 0.945,
+   "fpr": 0.803
+  },
+  "lr_char|opi": {
+   "auc": 0.645,
+   "tpr": 0.047,
+   "fpr": 0.001
+  },
+  "lr_char|tensortrust": {
+   "auc": 0.793,
+   "tpr": 0.554,
+   "fpr": 0.105
+  }
+ },
+ "evasion": {
+  "none": {
+   "rebuff": {
+    "tpr1": 0.301,
+    "tpr_default": 0.025,
+    "by_ds": {
+     "bipia": 0.053,
+     "jailbreakhub": 0.028,
+     "opi": 0.422,
+     "tensortrust": 0.4
+    }
+   },
+   "vigil": {
+    "tpr1": 0.089,
+    "tpr_default": 0.089,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.009,
+     "opi": 0.382,
+     "tensortrust": 0.025
+    }
+   },
+   "lr_word": {
+    "tpr1": 0.49,
+    "tpr_default": 0.802,
+    "by_ds": {
+     "bipia": 0.25,
+     "jailbreakhub": 0.269,
+     "opi": 0.533,
+     "tensortrust": 0.925
+    }
+   },
+   "lr_char": {
+    "tpr1": 0.534,
+    "tpr_default": 0.808,
+    "by_ds": {
+     "bipia": 0.083,
+     "jailbreakhub": 0.376,
+     "opi": 0.627,
+     "tensortrust": 0.928
+    }
+   }
+  },
+  "synonyms": {
+   "rebuff": {
+    "tpr1": 0.133,
+    "tpr_default": 0.019,
+    "by_ds": {
+     "bipia": 0.053,
+     "jailbreakhub": 0.028,
+     "opi": 0.093,
+     "tensortrust": 0.24
+    }
+   },
+   "vigil": {
+    "tpr1": 0.0,
+    "tpr_default": 0.0,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.0,
+     "opi": 0.0,
+     "tensortrust": 0.0
+    }
+   },
+   "lr_word": {
+    "tpr1": 0.404,
+    "tpr_default": 0.743,
+    "by_ds": {
+     "bipia": 0.25,
+     "jailbreakhub": 0.224,
+     "opi": 0.307,
+     "tensortrust": 0.846
+    }
+   },
+   "lr_char": {
+    "tpr1": 0.458,
+    "tpr_default": 0.755,
+    "by_ds": {
+     "bipia": 0.083,
+     "jailbreakhub": 0.329,
+     "opi": 0.471,
+     "tensortrust": 0.832
+    }
+   }
+  },
+  "padding": {
+   "rebuff": {
+    "tpr1": 0.304,
+    "tpr_default": 0.025,
+    "by_ds": {
+     "bipia": 0.053,
+     "jailbreakhub": 0.028,
+     "opi": 0.427,
+     "tensortrust": 0.404
+    }
+   },
+   "vigil": {
+    "tpr1": 0.089,
+    "tpr_default": 0.089,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.009,
+     "opi": 0.382,
+     "tensortrust": 0.025
+    }
+   },
+   "lr_word": {
+    "tpr1": 0.079,
+    "tpr_default": 0.384,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.009,
+     "opi": 0.004,
+     "tensortrust": 0.29
+    }
+   },
+   "lr_char": {
+    "tpr1": 0.099,
+    "tpr_default": 0.385,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.044,
+     "opi": 0.076,
+     "tensortrust": 0.254
+    }
+   }
+  },
+  "leetspeak": {
+   "rebuff": {
+    "tpr1": 0.016,
+    "tpr_default": 0.001,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.0,
+     "opi": 0.0,
+     "tensortrust": 0.044
+    }
+   },
+   "vigil": {
+    "tpr1": 0.0,
+    "tpr_default": 0.0,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.0,
+     "opi": 0.0,
+     "tensortrust": 0.0
+    }
+   },
+   "lr_word": {
+    "tpr1": 0.033,
+    "tpr_default": 0.177,
+    "by_ds": {
+     "bipia": 0.008,
+     "jailbreakhub": 0.0,
+     "opi": 0.004,
+     "tensortrust": 0.122
+    }
+   },
+   "lr_char": {
+    "tpr1": 0.022,
+    "tpr_default": 0.073,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.0,
+     "opi": 0.0,
+     "tensortrust": 0.086
+    }
+   }
+  },
+  "homoglyph": {
+   "rebuff": {
+    "tpr1": 0.016,
+    "tpr_default": 0.001,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.0,
+     "opi": 0.0,
+     "tensortrust": 0.044
+    }
+   },
+   "vigil": {
+    "tpr1": 0.0,
+    "tpr_default": 0.0,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.0,
+     "opi": 0.0,
+     "tensortrust": 0.0
+    }
+   },
+   "lr_word": {
+    "tpr1": 0.054,
+    "tpr_default": 0.361,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.0,
+     "opi": 0.022,
+     "tensortrust": 0.194
+    }
+   },
+   "lr_char": {
+    "tpr1": 0.218,
+    "tpr_default": 0.512,
+    "by_ds": {
+     "bipia": 0.023,
+     "jailbreakhub": 0.002,
+     "opi": 0.511,
+     "tensortrust": 0.423
+    }
+   }
+  },
+  "spacing": {
+   "rebuff": {
+    "tpr1": 0.055,
+    "tpr_default": 0.0,
+    "by_ds": {
+     "bipia": 0.008,
+     "jailbreakhub": 0.0,
+     "opi": 0.004,
+     "tensortrust": 0.14
+    }
+   },
+   "vigil": {
+    "tpr1": 0.0,
+    "tpr_default": 0.0,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.0,
+     "opi": 0.0,
+     "tensortrust": 0.0
+    }
+   },
+   "lr_word": {
+    "tpr1": 0.075,
+    "tpr_default": 0.496,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.0,
+     "opi": 0.036,
+     "tensortrust": 0.262
+    }
+   },
+   "lr_char": {
+    "tpr1": 0.011,
+    "tpr_default": 0.134,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.0,
+     "opi": 0.0,
+     "tensortrust": 0.043
+    }
+   }
+  },
+  "zero_width": {
+   "rebuff": {
+    "tpr1": 0.301,
+    "tpr_default": 0.025,
+    "by_ds": {
+     "bipia": 0.053,
+     "jailbreakhub": 0.028,
+     "opi": 0.422,
+     "tensortrust": 0.4
+    }
+   },
+   "vigil": {
+    "tpr1": 0.0,
+    "tpr_default": 0.0,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.0,
+     "opi": 0.0,
+     "tensortrust": 0.0
+    }
+   },
+   "lr_word": {
+    "tpr1": 0.0,
+    "tpr_default": 0.0,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.0,
+     "opi": 0.0,
+     "tensortrust": 0.0
+    }
+   },
+   "lr_char": {
+    "tpr1": 0.0,
+    "tpr_default": 0.0,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.0,
+     "opi": 0.0,
+     "tensortrust": 0.0
+    }
+   }
+  },
+  "base64": {
+   "rebuff": {
+    "tpr1": 0.68,
+    "tpr_default": 0.0,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.0,
+     "opi": 1.0,
+     "tensortrust": 0.944
+    }
+   },
+   "vigil": {
+    "tpr1": 0.0,
+    "tpr_default": 0.0,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.0,
+     "opi": 0.0,
+     "tensortrust": 0.0
+    }
+   },
+   "lr_word": {
+    "tpr1": 0.0,
+    "tpr_default": 0.0,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.0,
+     "opi": 0.0,
+     "tensortrust": 0.0
+    }
+   },
+   "lr_char": {
+    "tpr1": 0.0,
+    "tpr_default": 0.001,
+    "by_ds": {
+     "bipia": 0.0,
+     "jailbreakhub": 0.0,
+     "opi": 0.0,
+     "tensortrust": 0.0
+    }
+   }
+  }
+ },
+ "sizes": {
+  "bipia|0": 439,
+  "bipia|1": 440,
+  "jailbreakhub|0": 1500,
+  "jailbreakhub|1": 1500,
+  "opi|0": 750,
+  "opi|1": 750,
+  "tensortrust|0": 930,
+  "tensortrust|1": 930
+ }
+}

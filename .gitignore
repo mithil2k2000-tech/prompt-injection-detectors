@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+data/
+results/scored.csv
+results/run*.log
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk

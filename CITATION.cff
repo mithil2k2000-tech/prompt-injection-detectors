@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Cheap Prompt-Injection Detectors Do Not Travel: A Cross-Dataset and Evasion Study of Open-Source Heuristics and N-gram Classifiers"
+type: software
+authors:
+  - family-names: Nagabathula
+    given-names: Mithil
+    affiliation: University of East London
+    email: mithilnishu2000@gmail.com
+repository-code: "https://github.com/mithil2k2000-tech/prompt-injection-detectors"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-21"
+keywords:
+  - "prompt injection"
+  - "LLM security"
+  - "detection"
+  - "evasion"
+preferred-citation:
+  type: report
+  title: "Cheap Prompt-Injection Detectors Do Not Travel: A Cross-Dataset and Evasion Study of Open-Source Heuristics and N-gram Classifiers"
+  authors:
+    - family-names: Nagabathula
+      given-names: Mithil
+      affiliation: University of East London
+  institution:
+    name: University of East London
+  year: 2026
+  month: 10
+  url: "https://github.com/mithil2k2000-tech/prompt-injection-detectors/blob/main/prompt-injection-detectors.pdf"
+  notes: "Preprint; not peer reviewed."
