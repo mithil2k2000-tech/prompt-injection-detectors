@@ -1,6 +1,6 @@
 # Cheap prompt-injection detectors do not travel
 
-📄 **Paper (PDF): [prompt-injection-detectors.pdf](prompt-injection-detectors.pdf)**
+📄 **Paper (PDF): [prompt-injection-detectors.pdf](prompt-injection-detectors.pdf)** · [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23593064.svg)](https://doi.org/10.5281/zenodo.23593064)
 
 A cross-dataset and evasion study of lightweight prompt-injection detectors: Rebuff's heuristic and Vigil's YARA rules
 as shipped, and logistic regression on word and character n-grams, on four public attack collections (JailbreakHub,
