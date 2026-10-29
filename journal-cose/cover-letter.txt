@@ -1,0 +1,20 @@
+Dear Editor,
+
+Please consider the enclosed manuscript, "Cheap prompt-injection detectors do not travel: a cross-dataset and evasion study of open-source heuristics and n-gram classifiers", for publication in Computers & Security as a full-length research article.
+
+Prompt injection is the first risk on the OWASP list for applications built on large language models, and many teams respond by screening inputs with lightweight detectors: keyword heuristics, signature rules or small text classifiers trained on whatever attacks they have. These detectors are usually evaluated on held-out data from the same collection they were built from. The manuscript tests whether that evaluation says anything about protection.
+
+Using four public attack collections (7,239 prompts), we evaluate the heuristic layers of two open-source tools as shipped (Rebuff and Vigil) and two n-gram classifiers. The main findings are:
+- the shipped heuristics flagged at most 13% of attacks on three of the four collections;
+- classifiers that reached AUC 0.85-1.00 within a collection fell to a median of 0.64-0.66 on another, and still missed almost all indirect attacks when trained on the other three collections pooled;
+- at a 1% false-positive rate, simple transformations such as benign padding, leetspeak, zero-width characters and base64 removed nearly all remaining detection.
+
+We think the paper suits Computers & Security because its contribution is practical and methodological: it shows practitioners how to evaluate such detectors (across sources, at a fixed false-positive rate, under evasion) and why cheap detectors should be treated as one layer of defence rather than a control. All code and results are public and archived (https://doi.org/10.5281/zenodo.23593064), and every number in the paper is produced by the released scripts.
+
+A preprint of an earlier version is available on Zenodo under the DOI above. The manuscript is not under consideration elsewhere. The author has no competing interests to declare, and the use of generative AI in preparing the work is declared in the manuscript.
+
+Yours sincerely,
+Mithil Nagabathula
+University of East London
+mithilnishu2000@gmail.com
+ORCID: 0009-0005-1722-1138

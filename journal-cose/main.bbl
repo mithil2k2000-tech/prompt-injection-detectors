@@ -1,0 +1,148 @@
+\begin{thebibliography}{15}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Inproceedings
+\bibitem[{Arp et~al.(2022)Arp, Quiring, Pendlebury, Warnecke, Pierazzi,
+  Wressnegger, Cavallaro and Rieck}]{arp2022dos}
+\bibinfo{author}{Arp, D.}, \bibinfo{author}{Quiring, E.},
+  \bibinfo{author}{Pendlebury, F.}, \bibinfo{author}{Warnecke, A.},
+  \bibinfo{author}{Pierazzi, F.}, \bibinfo{author}{Wressnegger, C.},
+  \bibinfo{author}{Cavallaro, L.}, \bibinfo{author}{Rieck, K.},
+  \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Dos and don'ts of machine learning in computer
+  security}, in: \bibinfo{booktitle}{31st USENIX Security Symposium}, pp.
+  \bibinfo{pages}{3971--3988}.
+%Type = Inproceedings
+\bibitem[{Boucher et~al.(2022)Boucher, Shumailov, Anderson and
+  Papernot}]{boucher2022bad}
+\bibinfo{author}{Boucher, N.}, \bibinfo{author}{Shumailov, I.},
+  \bibinfo{author}{Anderson, R.}, \bibinfo{author}{Papernot, N.},
+  \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Bad characters: Imperceptible {NLP} attacks}, in:
+  \bibinfo{booktitle}{IEEE Symposium on Security and Privacy}, pp.
+  \bibinfo{pages}{1987--2004}.
+%Type = Inproceedings
+\bibitem[{Chen et~al.(2025)Chen, Piet, Sitawarin and Wagner}]{chen2025struq}
+\bibinfo{author}{Chen, S.}, \bibinfo{author}{Piet, J.},
+  \bibinfo{author}{Sitawarin, C.}, \bibinfo{author}{Wagner, D.},
+  \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{{StruQ}: Defending against prompt injection with
+  structured queries}, in: \bibinfo{booktitle}{34th USENIX Security Symposium}.
+%Type = Inproceedings
+\bibitem[{Greshake et~al.(2023)Greshake, Abdelnabi, Mishra, Endres, Holz and
+  Fritz}]{greshake2023indirect}
+\bibinfo{author}{Greshake, K.}, \bibinfo{author}{Abdelnabi, S.},
+  \bibinfo{author}{Mishra, S.}, \bibinfo{author}{Endres, C.},
+  \bibinfo{author}{Holz, T.}, \bibinfo{author}{Fritz, M.},
+  \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Not what you've signed up for: Compromising
+  real-world {LLM}-integrated applications with indirect prompt injection}, in:
+  \bibinfo{booktitle}{Proceedings of the 16th ACM Workshop on Artificial
+  Intelligence and Security}, pp. \bibinfo{pages}{79--90}.
+%Type = Article
+\bibitem[{Hines et~al.(2024)Hines, Lopez, Hall, Zarfati, Zunger and
+  Kiciman}]{hines2024spotlighting}
+\bibinfo{author}{Hines, K.}, \bibinfo{author}{Lopez, G.},
+  \bibinfo{author}{Hall, M.}, \bibinfo{author}{Zarfati, F.},
+  \bibinfo{author}{Zunger, Y.}, \bibinfo{author}{Kiciman, E.},
+  \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Defending against indirect prompt injection attacks
+  with spotlighting}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2403.14720} .
+%Type = Article
+\bibitem[{Jain et~al.(2023)Jain, Schwarzschild, Wen, Somepalli, Kirchenbauer,
+  Chiang, Goldblum, Saha, Geiping and Goldstein}]{jain2023baseline}
+\bibinfo{author}{Jain, N.}, \bibinfo{author}{Schwarzschild, A.},
+  \bibinfo{author}{Wen, Y.}, \bibinfo{author}{Somepalli, G.},
+  \bibinfo{author}{Kirchenbauer, J.}, \bibinfo{author}{Chiang, P.y.},
+  \bibinfo{author}{Goldblum, M.}, \bibinfo{author}{Saha, A.},
+  \bibinfo{author}{Geiping, J.}, \bibinfo{author}{Goldstein, T.},
+  \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Baseline defenses for adversarial attacks against
+  aligned language models}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2309.00614} .
+%Type = Inproceedings
+\bibitem[{Liu et~al.(2024)Liu, Jia, Geng, Jia and Gong}]{liu2024formalizing}
+\bibinfo{author}{Liu, Y.}, \bibinfo{author}{Jia, Y.}, \bibinfo{author}{Geng,
+  R.}, \bibinfo{author}{Jia, J.}, \bibinfo{author}{Gong, N.Z.},
+  \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Formalizing and benchmarking prompt injection attacks
+  and defenses}, in: \bibinfo{booktitle}{33rd USENIX Security Symposium}, pp.
+  \bibinfo{pages}{1831--1847}.
+%Type = Misc
+\bibitem[{{OWASP Foundation}(2024)}]{owasp2025llm}
+\bibinfo{author}{{OWASP Foundation}}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{{OWASP} top 10 for large language model applications
+  2025}.
+\newblock \bibinfo{howpublished}{\url{https://genai.owasp.org/llm-top-10/}}.
+%Type = Inproceedings
+\bibitem[{Perez and Ribeiro(2022)}]{perez2022ignore}
+\bibinfo{author}{Perez, F.}, \bibinfo{author}{Ribeiro, I.},
+  \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Ignore previous prompt: Attack techniques for
+  language models}, in: \bibinfo{booktitle}{NeurIPS ML Safety Workshop}.
+%Type = Misc
+\bibitem[{{Protect AI}(2023)}]{rebuff}
+\bibinfo{author}{{Protect AI}}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Rebuff: {LLM} prompt injection detector}.
+\newblock \bibinfo{howpublished}{\url{https://github.com/protectai/rebuff}}.
+%Type = Inproceedings
+\bibitem[{Shen et~al.(2024)Shen, Chen, Backes, Shen and Zhang}]{shen2024dan}
+\bibinfo{author}{Shen, X.}, \bibinfo{author}{Chen, Z.},
+  \bibinfo{author}{Backes, M.}, \bibinfo{author}{Shen, Y.},
+  \bibinfo{author}{Zhang, Y.}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{``{Do Anything Now}'': Characterizing and evaluating
+  in-the-wild jailbreak prompts on large language models}, in:
+  \bibinfo{booktitle}{Proceedings of the 2024 ACM SIGSAC Conference on Computer
+  and Communications Security}.
+%Type = Misc
+\bibitem[{Swanda(2023)}]{vigil}
+\bibinfo{author}{Swanda, A.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Vigil: Detect prompt injections, jailbreaks, and
+  other potentially risky large language model inputs}.
+\newblock \bibinfo{howpublished}{\url{https://github.com/deadbits/vigil-llm}}.
+%Type = Misc
+\bibitem[{Taori et~al.(2023)Taori, Gulrajani, Zhang, Dubois, Li, Guestrin,
+  Liang and Hashimoto}]{taori2023alpaca}
+\bibinfo{author}{Taori, R.}, \bibinfo{author}{Gulrajani, I.},
+  \bibinfo{author}{Zhang, T.}, \bibinfo{author}{Dubois, Y.},
+  \bibinfo{author}{Li, X.}, \bibinfo{author}{Guestrin, C.},
+  \bibinfo{author}{Liang, P.}, \bibinfo{author}{Hashimoto, T.B.},
+  \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Stanford {Alpaca}: An instruction-following {LLaMA}
+  model}.
+\newblock
+  \bibinfo{howpublished}{\url{https://github.com/tatsu-lab/stanford_alpaca}}.
+%Type = Inproceedings
+\bibitem[{Toyer et~al.(2024)Toyer, Watkins, Mendes, Svegliato, Bailey, Wang,
+  Ong, Elmaaroufi, Abbeel, Darrell, Ritter and Russell}]{toyer2024tensortrust}
+\bibinfo{author}{Toyer, S.}, \bibinfo{author}{Watkins, O.},
+  \bibinfo{author}{Mendes, E.A.}, \bibinfo{author}{Svegliato, J.},
+  \bibinfo{author}{Bailey, L.}, \bibinfo{author}{Wang, T.},
+  \bibinfo{author}{Ong, I.}, \bibinfo{author}{Elmaaroufi, K.},
+  \bibinfo{author}{Abbeel, P.}, \bibinfo{author}{Darrell, T.},
+  \bibinfo{author}{Ritter, A.}, \bibinfo{author}{Russell, S.},
+  \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Tensor trust: Interpretable prompt injection attacks
+  from an online game}, in: \bibinfo{booktitle}{International Conference on
+  Learning Representations}.
+%Type = Article
+\bibitem[{Yi et~al.(2023)Yi, Xie, Zhu, Kiciman, Sun, Xie and Wu}]{yi2023bipia}
+\bibinfo{author}{Yi, J.}, \bibinfo{author}{Xie, Y.}, \bibinfo{author}{Zhu, B.},
+  \bibinfo{author}{Kiciman, E.}, \bibinfo{author}{Sun, G.},
+  \bibinfo{author}{Xie, X.}, \bibinfo{author}{Wu, F.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Benchmarking and defending against indirect prompt
+  injection attacks on large language models}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2312.14197} .
+
+\end{thebibliography}

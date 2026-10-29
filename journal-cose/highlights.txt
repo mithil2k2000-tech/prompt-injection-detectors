@@ -1,0 +1,5 @@
+- Four cheap prompt-injection detectors tested on four public attack collections
+- Shipped heuristics flagged at most 13% of attacks on three of four datasets
+- N-gram classifiers: AUC 0.85-1.00 in-dataset, median 0.64-0.66 cross-dataset
+- Padding, leetspeak, zero-width characters and base64 removed most detection
+- Evaluate detectors across sources; treat them as one layer, not a control

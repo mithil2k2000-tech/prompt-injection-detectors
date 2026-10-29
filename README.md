@@ -33,3 +33,7 @@ reviewed the code and results, and is responsible for the content.
 ## Licence
 
 MIT for this repository's code. The datasets and detector rules keep their own licences and are not redistributed.
+
+## Journal version
+
+An extended version prepared for journal submission is in `journal-cose/` (LaTeX source and PDF). Additional analyses: `src/extend.py` (where present), with outputs in `results/`.
